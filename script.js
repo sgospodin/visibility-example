@@ -10,7 +10,7 @@ console.log(document.visibilityState);
 if(document.visibilityState === 'hidden')
 {
 
-setTimeout(()=>{
+setInterval(()=>{
     box.style.background = 'blue';
 },30000 )
     
